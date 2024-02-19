@@ -1,3 +1,13 @@
+git clone git@github.com:<your_github_username>/coding-interview-university.git
+cd coding-interview-university
+git remote add upstream https://github.com/jwasham/coding-interview-university
+git remote set-url --push upstream DISABLE  # 这样你就不会将个人进展推回到原始仓库了。
+
+git commit -am "Marked personal progress"
+git pull upstream main  # 将您的分支与原始仓库中的更改保持最新
+  
+git push # just pushes to your fork
+
 # 编程面试大学
 
 > 原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。
